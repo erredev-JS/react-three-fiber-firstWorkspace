@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@types/three": "^0.176.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",

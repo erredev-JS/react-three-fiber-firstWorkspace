@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.canvasContainer{
+
+    background-color: rgb(74, 73, 73);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.textContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    color: white;
+    font-weight: bold;
+}
+
+.imgLogo{
+    margin-top: 10px;
+    
+    
+    font-size: 2rem;
+}    
+
+.button{
+    padding: 14px 12px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    width: 45%;
+}        
+
+.buttonsContainer{
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}    
+
+.button:first-child{
+    background-color: darkcyan;
+    color: white;
+}    
+
+

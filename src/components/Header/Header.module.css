@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Tesla';
+    src: url('/fonts/TESLA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.header{
+    height: 10vh;
+    background-color: rgb(74, 73, 73);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    font-family: 'Tesla';
+    font-size: 30px;
+    letter-spacing: 6px;
+    justify-content: space-between;
+}
+
+.navBtn{
+    padding: 8px 14px;
+    background: rgba(0, 0, 0, 0.3); /* Fondo blanco semi-transparente */
+    backdrop-filter: blur(8px);
+    border: none; /* Borde más tenue */
+    color: white;
+    border-radius: 5px;
+}
+
+.navBtn:hover{
+    background: rgba(0, 0, 0, 0.5); /* Un poco más oscuro al pasar el mouse */
+}
