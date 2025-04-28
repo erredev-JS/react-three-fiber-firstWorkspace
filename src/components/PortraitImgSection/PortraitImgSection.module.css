@@ -1,0 +1,40 @@
+.imgSection{
+    background-image: url('./img/galaxia.jpeg');
+    height: 250vh;
+    color: white;
+    padding-top: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+.scrollCard{
+    background-color: rgba(207, 206, 206, 0.377);
+    width: 95%;
+    margin: 0 auto;
+    height: 170px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    border-top: 5px rgb(255, 255, 255) solid;
+    clip-path: polygon(
+        0 0, 
+        100% 0, 
+        100% 84%, 
+        94% 100%, 
+        0 100%
+      );
+}
+
+.cardTitle{
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+
+.cardSubtitle{
+    font-size: 18px;
+    font-weight: lighter;
+}
