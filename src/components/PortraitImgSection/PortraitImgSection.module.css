@@ -1,5 +1,5 @@
 .imgSection{
-    background-image: url('./img/galaxia.jpeg');
+    background-image: url('/img/galaxia.jpeg');
     height: 250vh;
     color: white;
     padding-top: 600px;

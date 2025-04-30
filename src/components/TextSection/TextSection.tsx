@@ -14,7 +14,7 @@ const TextSection = () => {
       </p>
 
       {/* Carrusel React Responsive Carousel */}
-      <Carousel className={style.carousel} interval={2000} autoPlay showIndicators={false} showThumbs={false}>
+      <Carousel className={style.carousel}  showIndicators={false} showThumbs={false} swipeable={false}>
         <div>
           <div className={style.card}>
             <img src="./img/cyber1prueba.PNG" alt="Imagen 1" className={style.cardImage} />

@@ -21,12 +21,13 @@ export default function Scene() {
         enableZoom={false}
         enablePan={false}
         autoRotateSpeed={0.3}
-        onEnd={() => {
-          if(controlsRef.current){
-            controlsRef.current.reset(); // <- Esto resetea la cámara
+        enableRotate={false}
+        // onEnd={() => {
+        //   if(controlsRef.current){
+        //     controlsRef.current.reset(); // <- Esto resetea la cámara
 
-          }
-        }}
+        //   }
+        // }}
       />
     </>
   );
